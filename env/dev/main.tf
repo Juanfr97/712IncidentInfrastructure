@@ -22,3 +22,4 @@ module "dev_vm" {
   ip_name                  = "IN-IP-Juan"
   vnet_name                = "IN-VNET-Juan"
 }
+
