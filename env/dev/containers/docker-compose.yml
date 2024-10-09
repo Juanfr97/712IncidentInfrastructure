@@ -28,7 +28,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
 
   incident-api:
-    image: juanfr97/712-incident-api:prod
+    image: juanfr97/712-incident-api:latest
     container_name: IncidentApi
     expose:
       - "3000"
