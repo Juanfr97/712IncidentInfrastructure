@@ -1,0 +1,7 @@
+
+
+
+az group create --name tfstateRGJaramillo --location eastus2
+
+az storage account create --resource-group tfstateRGJaramillo --name tfstatejaramillo --sku Standard_LRS --encryption-services
+
