@@ -24,7 +24,7 @@ module "dev_vm" {
 }
 
 resource "azurerm_resource_group" "prueba_examen" {
-  name = "Prueba examen"
+  name = "prueba-examen"
   location = "eastus2"
 }
 
