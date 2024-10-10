@@ -28,3 +28,8 @@ resource "azurerm_resource_group" "prueba_examen" {
   location = "eastus2"
 }
 
+resource "azurerm_resource_group" "RG_RogelioCC" {
+  name = "rc-rogeliocc"
+  location = "eastus2"
+}
+
