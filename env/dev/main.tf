@@ -23,3 +23,8 @@ module "dev_vm" {
   vnet_name                = "IN-VNET-Juan"
 }
 
+resource "azurerm_resource_group" "prueba_examen" {
+  name = "Prueba examen"
+  location = "eastus2"
+}
+
